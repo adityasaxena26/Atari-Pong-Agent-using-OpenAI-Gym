@@ -1,3 +1,4 @@
+
 ## Project Overview
 In this project, you’ll implement a Neural Network for Deep Reinforcement Learning and see it learn more and more as it finally becomes good enough to beat the computer in Pong! You can play around with other such Atari games at the [OpenAI Gym](https://gym.openai.com/).
 
@@ -20,8 +21,14 @@ You’ll need to know the following:
 
 Read the [blog post](http://karpathy.github.io/2016/05/31/rl/) on which all of this project is based, if you want a deeper dive into the project.
 
+## Software and Libraries
+This project uses the following software and Python libraries:
+- [Python](https://www.python.org/download/releases)
+- [NumPy](http://www.numpy.org/)
+- [Keras](https://github.com/fchollet/keras)
+- [Gym](https://gym.openai.com/)
 
-## Setup
+## Project Setup
 
 1. Follow the instructions for installing [OpenAI Gym](https://gym.openai.com/docs/). This requires installing several more involved dependencies, including ```cmake``` and a recent ```pip``` version.
 

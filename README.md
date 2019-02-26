@@ -1,6 +1,10 @@
+# Deep Reinforcement Learning
+## Project: Atari Pong Agent Using OpenAI Gym
 
 ## Project Overview
-In this project, you’ll implement a Neural Network for Deep Reinforcement Learning and see it learn more and more as it finally becomes good enough to beat the computer in Pong! You can play around with other such Atari games at the [OpenAI Gym](https://gym.openai.com/).
+In this project, you’ll implement a Neural Network for Deep Reinforcement Learning and see it learn more and more as it finally becomes good enough to beat the computer in Atari 2600 game Pong! You can play around with other such Atari games at the [OpenAI Gym](https://gym.openai.com/).
+
+[![Andrej Karpathy Pong AI using Policy Gradients](https://img.youtube.com/vi/YOW8m2YGtRg/0.jpg)](https://www.youtube.com/watch?v=YOW8m2YGtRg)
 
 By executing this project, you’ll be able to do the following:
 

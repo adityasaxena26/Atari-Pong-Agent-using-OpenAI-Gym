@@ -19,3 +19,17 @@ You’ll need to know the following:
 - Calculus and Linear Algebra
 
 Read the [blog post](http://karpathy.github.io/2016/05/31/rl/) on which all of this project is based, if you want a deeper dive into the project.
+
+
+## Setup
+
+1. Follow the instructions for installing [OpenAI Gym](https://gym.openai.com/docs/). This requires installing several more involved dependencies, including ```cmake``` and a recent ```pip``` version.
+
+2. Run ```pip install -e .[atari]```
+
+3. Clone the repository and navigate to the downloaded folder.
+  ```
+  git clone https://github.com/adityasaxena26/Atari-Pong-Agent-using-OpenAI-Gym.git
+  cd Atari-Pong-Agent-using-OpenAI-Gym
+  ```
+4. Run ```python atari_pong_agent.py```

@@ -201,6 +201,7 @@ def start():
             episode_gradient_log_ps = np.vstack(episode_gradient_log_ps)
             episode_rewards = np.vstack(episode_rewards)
 
+            # tweak the gradient of the log_ps based on the discounted rewards
             episode_gradient_log_ps_discounted = discount_with_rewards(episode_gradient_log_ps, episode_rewards, gamma)
 
             gradient = compute_gradient(
@@ -210,6 +211,7 @@ def start():
               weights
             )
 
+            # sum the gradient after hitting the batch size
             for layer_name in gradient:
                 g_dict[layer_name] += gradient[layer_name]
 
